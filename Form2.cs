@@ -49,8 +49,8 @@ namespace Color_Coder
                                 MailMessage message = new MailMessage();
                                 SmtpClient smtp = new SmtpClient();
 
-                                message.From = new MailAddress("bembemcolorcode@gmail.com");
-                                message.To.Add(new MailAddress("ebereuzodufa@gmail.com"));
+                                message.From = new MailAddress("app email");
+                                message.To.Add(new MailAddress("receipent email"));
                                 message.Subject = "Color Code Suggestions";
                                 message.Body = "Category: Desktop Application" + "\r\n" + "Name: Color Code" + "\r\n" + "From: " + txtName.Text + "\r\n" +" "+"\r\n" + "Message"+"\r\n"+richTxtSug.Text;
 
@@ -58,7 +58,7 @@ namespace Color_Coder
                                 smtp.Host = "smtp.gmail.com";
                                 smtp.EnableSsl = true;
                                 smtp.UseDefaultCredentials = false;
-                                smtp.Credentials = new NetworkCredential("bembemcolorcode@gmail.com", "bembemc0l0rc0de");
+                                smtp.Credentials = new NetworkCredential("app email", "app email password");
                                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                                 smtp.Send(message);
 
