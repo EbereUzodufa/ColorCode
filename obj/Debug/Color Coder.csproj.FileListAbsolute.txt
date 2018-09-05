@@ -8,3 +8,4 @@ C:\Users\ViaPhone001\Documents\Visual Studio 2017\Projects\Color Coder\Color Cod
 C:\Users\ViaPhone001\Documents\Visual Studio 2017\Projects\Color Coder\Color Coder\obj\Debug\Color Coder.exe
 C:\Users\ViaPhone001\Documents\Visual Studio 2017\Projects\Color Coder\Color Coder\obj\Debug\Color Coder.pdb
 C:\Users\ViaPhone001\Documents\Visual Studio 2017\Projects\Color Coder\Color Coder\obj\Debug\Color_Coder.Form2.resources
+C:\Users\ViaPhone001\Documents\Visual Studio 2017\Projects\Color Coder\Color Coder\bin\Debug\Color Code.exe.config
