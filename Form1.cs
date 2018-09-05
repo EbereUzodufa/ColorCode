@@ -445,6 +445,23 @@ namespace Color_Coder
             }
         }
 
+        private void lblClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form hu = new Form2();
+            hu.Close();
+        }
+
+        private void lblClose_MouseEnter(object sender, EventArgs e)
+        {
+            //lblClose.ForeColor = Color.Black;
+        }
+
+        private void lblClose_MouseLeave(object sender, EventArgs e)
+        {
+            //lblClose.ForeColor = Color.WhiteSmoke;
+        }
+
         private void numericUpDownB_ValueChange(object sender, EventArgs e)
         {
             if (numericUpDownB.Value > 1)

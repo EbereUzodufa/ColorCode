@@ -52,7 +52,7 @@ namespace Color_Coder
                                 message.From = new MailAddress("bembemcolorcode@gmail.com");
                                 message.To.Add(new MailAddress("ebereuzodufa@gmail.com"));
                                 message.Subject = "Color Code Suggestions";
-                                message.Body = "From: " + txtName.Text + "\r\n" +" "+"\r\n" + "Message"+"\r\n"+richTxtSug.Text;
+                                message.Body = "Category: Desktop Application" + "\r\n" + "Name: Color Code" + "\r\n" + "From: " + txtName.Text + "\r\n" +" "+"\r\n" + "Message"+"\r\n"+richTxtSug.Text;
 
                                 smtp.Port = 587;
                                 smtp.Host = "smtp.gmail.com";
